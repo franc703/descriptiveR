@@ -55,7 +55,7 @@ You can install the development version of descriptiveR from
 # install.packages("devtools")
 devtools::install_github("franc703/descriptiveR")
 #> Downloading GitHub repo franc703/descriptiveR@HEAD
-#>       v  checking for file 'C:\Users\rodri\AppData\Local\Temp\Rtmp86HQw0\remotes325c3fc04b55\franc703-descriptiveR-1c73a34/DESCRIPTION'
+#>          checking for file 'C:\Users\rodri\AppData\Local\Temp\RtmpgBaNXa\remotes66a856d5213a\franc703-descriptiveR-240ada2/DESCRIPTION' ...  v  checking for file 'C:\Users\rodri\AppData\Local\Temp\RtmpgBaNXa\remotes66a856d5213a\franc703-descriptiveR-240ada2/DESCRIPTION'
 #>       -  preparing 'descriptiveR':
 #>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
 #>       -  checking for LF line-endings in source and make files and shell scripts
@@ -63,7 +63,7 @@ devtools::install_github("franc703/descriptiveR")
 #>       -  building 'descriptiveR_0.0.0.9000.tar.gz'
 #>      
 #> 
-#> Installing package into 'C:/Users/rodri/AppData/Local/Temp/RtmpCCee1N/temp_libpath62842e1d6b6b'
+#> Installing package into 'C:/Users/rodri/AppData/Local/Temp/RtmpCCee1N/temp_libpath6284509f1b68'
 #> (as 'lib' is unspecified)
 ```
 
@@ -75,7 +75,8 @@ This is a basic example which shows you how to solve a common problem:
 library(descriptiveR)
 ```
 
-This is a basic example which shows you how to solve a common problem:
+When you have a data frame where the column names contain a prefix that
+you want to eliminate like in the mock dataframe I created below.
 
 ``` r
 ## basic example code

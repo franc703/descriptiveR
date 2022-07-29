@@ -71,7 +71,7 @@ This is a basic example which shows you how to solve a common problem:
 library(descriptiveR)
 ```
 
-This is a basic example which shows you how to solve a common problem:
+When you have a data frame where the column names contain a prefix that you want to eliminate like in the mock dataframe I created below.
 
 
 ```{r example}
